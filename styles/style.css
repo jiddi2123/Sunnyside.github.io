@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+
+.banner{
+    background: url(../images/desktop/image-header.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 970px;
+    float: left;
+}
+
+
+.menu ul li{
+    float: left;
+    
+}
+.menu ul li a{
+    padding: 0.5rem 0.9rem;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+    
+}
+.menu ul li a:hover,.menu ul li a.active{
+    background: rgb(138, 216, 247);
+    color: white;
+    border-radius: 25px;
+    
+
+}
+.menu ul li a:hover,.menu ul li a.active{
+    font-size: x-large;
+}
+.logo h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    margin-right: 20rem;
+    padding-left: 8rem;
+}
+.hero-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    flex-direction: column;
+    
+}
+
+.hero-txt h1{
+    font-size: 40px;
+    font-family: 'Fraunces', serif;
+    font-weight: bolder;
+    color:  #fff;
+    margin-bottom: 150px;
+    letter-spacing: 1rem;
+}
+
+
+
+.fruite,.berry{
+    width: 100%;
+    height: 805px;
+    overflow: hidden;
+}
+
+.testemonials{
+    overflow: hidden;
+}
+
+.ice{
+    overflow: hidden;
+}
+
+.footerbg{
+    overflow: hidden;
+}
+
+.banner{
+    overflow: hidden;
+}
+
+
+.trans{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 805px;
+    padding: 0 50px;
+}
+.trans h1{
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 3rem;
+    padding: 5.5rem;
+
+}
+.trans p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #7e8386;
+    padding: 0 2rem;
+}
+
+.trans a{
+    margin-left: -80%;
+    font-family: 'Fraunces', serif;
+    font-size: 14px;
+    color: black;
+  
+
+}
+
+.left h2{
+    text-align: center;
+    margin-top: 3rem;
+    padding: 5.5rem;
+    line-height: 1.6;
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+    font-weight: bold; 
+
+}
+.left p{
+    text-align: left;
+    padding: 0 2rem;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.left a{
+     font-family: 'Fraunces', serif;
+    font-size: 14px;
+    color: black;
+    margin-left: 2rem;
+
+
+}
+
+.spacing{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.Photograph{
+    width: 100%;
+    height: 805px;
+    background: url(../images/desktop/image-photography.jpg);
+    background-size: cover;
+   
+}
+.Photograph h1{
+    text-align: center;
+    color: #25564B;
+    padding-top: 30rem;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    
+}
+.Photograph p{
+    text-align: center;
+    color: #19536B;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-top: 8rem;
+    font-weight: bold;
+
+}
+
+.graphic{
+    width: 100%;
+    height: 805px;
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+}
+.graphic h1{
+    text-align: center;
+    color: #25564B;
+    padding-top: 30rem;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+
+}
+.graphic p{
+    text-align: center;
+    color: #19536B;
+    padding: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-top: 6rem;
+    font-weight: bold;
+
+
+}
+.testemonials{
+    margin: 10rem;
+}
+.client{
+    font-family: 'Fraunces', serif;
+    font-size: 11px;
+    color: #A7ABAE;
+    font-weight: bolder;
+    letter-spacing: 0.5rem;  
+    margin-bottom: 3rem;
+}
+.emily img{
+    border-radius: 70%;
+    width: 70px;
+    height: 70px;
+
+
+}
+.emily p{
+    padding: 2rem;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.emily h5{
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+.emily h6{
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+    color: #7e8386;
+    font-weight: bold;
+
+}
+.spacing{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+
+
+.footerbg {
+    width: 100%;
+    height: 299px;
+    float: left;
+    background-color: #25564b40;
+    margin-top: -299px;
+    position: absolute;
+    z-index: 3;
+    overflow: hidden;
+
+}
+.about {
+    margin: 30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.about h2{
+    text-align: center;
+    font-weight: bold;
+    color: #25564b;
+}
+.about ul{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    justify-content: space-between;
+    padding: 0px 25%;
+}
+.about ul li a {
+    text-decoration: none;
+    color: #25564b;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about ul li a:hover{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.icons ul{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    justify-content: space-between;
+    padding: 0 35%;
+}
+.icons ul li a{
+    color: #25564b;
+    font-size: larger;
+}
+.icons ul li a:hover{
+    color: #fff;
+}
+.icons p{
+    text-align: center;
+    padding: 20px;
+    color: red;
+    font-size: small;
+}
+.icons p a{
+    text-decoration: none;
+}
